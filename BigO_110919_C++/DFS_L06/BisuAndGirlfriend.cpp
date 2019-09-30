@@ -9,6 +9,7 @@
 #include <iostream>
 #include <vector>
 #include <stack>
+#include <algorithm>
 
 using namespace std;
 
@@ -56,13 +57,17 @@ int main(int argc, const char * argv[]) {
         }
     }
     
-    int min = INT32_MAX;
-    int result = 0;
+    int minDist = INT32_MAX;
+    int result = INT32_MAX;
     for (int i = 0; i < ids.size(); i++) {
         int id = ids[i];
-        if (dist[id] > 0 && dist[id] < min) {
-            min = dist[id];
-            result = id;
+        if (dist[id] > 0 && dist[id] <= minDist) {
+            if (dist[id] == minDist) {
+                result = min(result, id);
+            } else {
+                result = id;
+            }
+            minDist = dist[id];
         }
     }
     
