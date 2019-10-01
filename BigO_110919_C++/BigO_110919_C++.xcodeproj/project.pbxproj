@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		C8381464233CBC95000C16E2 /* FerryLoading_L04P06.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C886E878233A152A00D3B026 /* FerryLoading_L04P06.cpp */; };
 		C8381468233E1E48000C16E2 /* KefaAndPark_P05.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8381467233E1E48000C16E2 /* KefaAndPark_P05.cpp */; };
-		C881A5B4234218B700EBE05B /* DuduServiceMaker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C881A5B3234218B700EBE05B /* DuduServiceMaker.cpp */; };
+		C881A5B9234355B200EBE05B /* LakesInBerland.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C881A5B12341EFAA00EBE05B /* LakesInBerland.cpp */; };
 		C886E879233A152A00D3B026 /* FerryLoading_L04P06.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C886E878233A152A00D3B026 /* FerryLoading_L04P06.cpp */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +73,8 @@
 		C881A5AF2341E2FF00EBE05B /* Prayatna.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Prayatna.cpp; sourceTree = "<group>"; };
 		C881A5B12341EFAA00EBE05B /* LakesInBerland.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LakesInBerland.cpp; sourceTree = "<group>"; };
 		C881A5B3234218B700EBE05B /* DuduServiceMaker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DuduServiceMaker.cpp; sourceTree = "<group>"; };
+		C881A5B52342F89300EBE05B /* TheLastShot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TheLastShot.cpp; sourceTree = "<group>"; };
+		C881A5B723430E2F00EBE05B /* ALLIZZWELL.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ALLIZZWELL.cpp; sourceTree = "<group>"; };
 		C886E878233A152A00D3B026 /* FerryLoading_L04P06.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FerryLoading_L04P06.cpp; sourceTree = "<group>"; };
 		C886E87E233A158200D3B026 /* Stack&Queue_L04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Stack&Queue_L04"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C886E880233A158200D3B026 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -135,6 +137,8 @@
 				C881A5AF2341E2FF00EBE05B /* Prayatna.cpp */,
 				C881A5B12341EFAA00EBE05B /* LakesInBerland.cpp */,
 				C881A5B3234218B700EBE05B /* DuduServiceMaker.cpp */,
+				C881A5B52342F89300EBE05B /* TheLastShot.cpp */,
+				C881A5B723430E2F00EBE05B /* ALLIZZWELL.cpp */,
 			);
 			path = DFS_L06;
 			sourceTree = "<group>";
@@ -320,7 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C881A5B4234218B700EBE05B /* DuduServiceMaker.cpp in Sources */,
+				C881A5B9234355B200EBE05B /* LakesInBerland.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
