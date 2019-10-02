@@ -41,6 +41,8 @@ int DFS(Point s, int R, int C, int index) {
     visited[s.r][s.c] = true;
     path[s.r][s.c] = index;
     
+    bool isLake = true;
+    
     while (!stack.empty()) {
         Point u = stack.top();
         stack.pop();
@@ -49,10 +51,10 @@ int DFS(Point s, int R, int C, int index) {
             Point v = Point(u.r + dr[i], u.c + dc[i]);
             if (graph[v.r][v.c] == '.') {
                 if (!isValid(v, R, C)) {
-                    return -1;
+                    isLake = false;
                 }
-                // valid
-                if (graph[v.r][v.c] == '.' && !visited[v.r][v.c]) {
+                
+                if (!visited[v.r][v.c]) {
                     visited[v.r][v.c] = true;
                     stack.push(v);
                     count += 1;
@@ -60,6 +62,9 @@ int DFS(Point s, int R, int C, int index) {
                 }
             }
         }
+    }
+    if (!isLake) {
+        return -1;
     }
     
     return count;
