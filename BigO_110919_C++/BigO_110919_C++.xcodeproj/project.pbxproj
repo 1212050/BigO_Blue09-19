@@ -10,7 +10,7 @@
 		C8381464233CBC95000C16E2 /* FerryLoading_L04P06.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C886E878233A152A00D3B026 /* FerryLoading_L04P06.cpp */; };
 		C881A5B9234355B200EBE05B /* LakesInBerland.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C881A5B12341EFAA00EBE05B /* LakesInBerland.cpp */; };
 		C886E879233A152A00D3B026 /* FerryLoading_L04P06.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C886E878233A152A00D3B026 /* FerryLoading_L04P06.cpp */; };
-		C8CA6C212345D9370023CD83 /* QHeap1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8CA6C202345D9370023CD83 /* QHeap1.cpp */; };
+		C8CA6C232345FAE50023CD83 /* AddAll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8CA6C222345FAE50023CD83 /* AddAll.cpp */; };
 		C8DCD36C2344A8370037709D /* ValidateTheMaze.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8DCD36B2344A8370037709D /* ValidateTheMaze.cpp */; };
 /* End PBXBuildFile section */
 
@@ -95,6 +95,7 @@
 		C8A5C4032334E074007E0B4F /* GukiZandContest_L03P03.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GukiZandContest_L03P03.cpp; sourceTree = "<group>"; };
 		C8A5C4052334E7D1007E0B4F /* PashaandTea_L03P04.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PashaandTea_L03P04.cpp; sourceTree = "<group>"; };
 		C8CA6C202345D9370023CD83 /* QHeap1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QHeap1.cpp; sourceTree = "<group>"; };
+		C8CA6C222345FAE50023CD83 /* AddAll.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AddAll.cpp; sourceTree = "<group>"; };
 		C8DCD36923448CEA0037709D /* Slick.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Slick.cpp; sourceTree = "<group>"; };
 		C8DCD36B2344A8370037709D /* ValidateTheMaze.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ValidateTheMaze.cpp; sourceTree = "<group>"; };
 		C8DCD3712344D4B70037709D /* Heap_L07 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Heap_L07; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -226,6 +227,7 @@
 			children = (
 				C8DCD3732344D4B70037709D /* Monk&Mutiplication.cpp */,
 				C8CA6C202345D9370023CD83 /* QHeap1.cpp */,
+				C8CA6C222345FAE50023CD83 /* AddAll.cpp */,
 			);
 			path = Heap_L07;
 			sourceTree = "<group>";
@@ -402,7 +404,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8CA6C212345D9370023CD83 /* QHeap1.cpp in Sources */,
+				C8CA6C232345FAE50023CD83 /* AddAll.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

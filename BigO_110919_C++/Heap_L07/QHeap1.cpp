@@ -51,7 +51,7 @@ void deleteMinHeap(long long v) {
             h[i] = h[h.size() - 1];
             h.pop_back();
             for (int j = (int)(h.size()/2 - 1); j >= 0; j--) {
-                minHeapify(i);
+                minHeapify(j);
             }
             break;
         }
