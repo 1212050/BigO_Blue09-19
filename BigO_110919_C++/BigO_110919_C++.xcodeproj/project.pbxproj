@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C80384E0234C9972004CF8DE /* MiceAndMaze.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C80384DF234C9972004CF8DE /* MiceAndMaze.cpp */; };
 		C8381464233CBC95000C16E2 /* FerryLoading_L04P06.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C886E878233A152A00D3B026 /* FerryLoading_L04P06.cpp */; };
-		C8386914234844A500F995A4 /* TravellingCost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8386913234844A500F995A4 /* TravellingCost.cpp */; };
 		C881A5B9234355B200EBE05B /* LakesInBerland.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C881A5B12341EFAA00EBE05B /* LakesInBerland.cpp */; };
 		C886E879233A152A00D3B026 /* FerryLoading_L04P06.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C886E878233A152A00D3B026 /* FerryLoading_L04P06.cpp */; };
 		C89A6629234758EC008D2769 /* RoyAndTrendingTopic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C89A6628234758EC008D2769 /* RoyAndTrendingTopic.cpp */; };
@@ -74,6 +74,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C80384DF234C9972004CF8DE /* MiceAndMaze.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MiceAndMaze.cpp; sourceTree = "<group>"; };
 		C823B6C62335CC68006B43C2 /* TransformTheExpression_L04P01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TransformTheExpression_L04P01.cpp; sourceTree = "<group>"; };
 		C823B6C82335CF60006B43C2 /* StreetParade_L04P02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StreetParade_L04P02.cpp; sourceTree = "<group>"; };
 		C838145B233BA2B2000C16E2 /* BFS_L05 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BFS_L05; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -193,6 +194,7 @@
 			children = (
 				C838690E2348448C00F995A4 /* main.cpp */,
 				C8386913234844A500F995A4 /* TravellingCost.cpp */,
+				C80384DF234C9972004CF8DE /* MiceAndMaze.cpp */,
 			);
 			path = "Dijktra's algorithm";
 			sourceTree = "<group>";
@@ -443,7 +445,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8386914234844A500F995A4 /* TravellingCost.cpp in Sources */,
+				C80384E0234C9972004CF8DE /* MiceAndMaze.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
