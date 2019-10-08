@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		C8381464233CBC95000C16E2 /* FerryLoading_L04P06.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C886E878233A152A00D3B026 /* FerryLoading_L04P06.cpp */; };
+		C8386914234844A500F995A4 /* TravellingCost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8386913234844A500F995A4 /* TravellingCost.cpp */; };
 		C881A5B9234355B200EBE05B /* LakesInBerland.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C881A5B12341EFAA00EBE05B /* LakesInBerland.cpp */; };
 		C886E879233A152A00D3B026 /* FerryLoading_L04P06.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C886E878233A152A00D3B026 /* FerryLoading_L04P06.cpp */; };
+		C89A6629234758EC008D2769 /* RoyAndTrendingTopic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C89A6628234758EC008D2769 /* RoyAndTrendingTopic.cpp */; };
 		C8CA6C232345FAE50023CD83 /* AddAll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8CA6C222345FAE50023CD83 /* AddAll.cpp */; };
 		C8DCD36C2344A8370037709D /* ValidateTheMaze.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8DCD36B2344A8370037709D /* ValidateTheMaze.cpp */; };
 /* End PBXBuildFile section */
@@ -25,6 +27,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		C838146B233FB1F8000C16E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		C838690A2348448C00F995A4 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -71,6 +82,9 @@
 		C8381467233E1E48000C16E2 /* KefaAndPark_P05.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KefaAndPark_P05.cpp; sourceTree = "<group>"; };
 		C838146D233FB1F8000C16E2 /* DFS_L06 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DFS_L06; sourceTree = BUILT_PRODUCTS_DIR; };
 		C838146F233FB1F8000C16E2 /* BisuAndGirlfriend.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BisuAndGirlfriend.cpp; sourceTree = "<group>"; };
+		C838690C2348448C00F995A4 /* Dijktra's algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Dijktra's algorithm"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C838690E2348448C00F995A4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C8386913234844A500F995A4 /* TravellingCost.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TravellingCost.cpp; sourceTree = "<group>"; };
 		C840FDBC2338CE2400D0ED55 /* ThrowingCardAway_L04P03.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ThrowingCardAway_L04P03.cpp; sourceTree = "<group>"; };
 		C840FDBF2338DAF600D0ED55 /* ThatIsYourQueue_L04P04.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ThatIsYourQueue_L04P04.cpp; sourceTree = "<group>"; };
 		C840FDC12339E36B00D0ED55 /* MassofMolecule_L04P05.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MassofMolecule_L04P05.cpp; sourceTree = "<group>"; };
@@ -88,6 +102,7 @@
 		C886E87E233A158200D3B026 /* Stack&Queue_L04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Stack&Queue_L04"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C886E880233A158200D3B026 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C88DC86B232C9B7E0026F458 /* ArraysB2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArraysB2.cpp; sourceTree = "<group>"; };
+		C89A6628234758EC008D2769 /* RoyAndTrendingTopic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RoyAndTrendingTopic.cpp; sourceTree = "<group>"; };
 		C8A5C3FB233224D6007E0B4F /* DemoSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DemoSort.cpp; sourceTree = "<group>"; };
 		C8A5C3FD233266CB007E0B4F /* Devu.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Devu.cpp; sourceTree = "<group>"; };
 		C8A5C3FF23326BEA007E0B4F /* SortTheArray_L03P02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortTheArray_L03P02.cpp; sourceTree = "<group>"; };
@@ -111,6 +126,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C838146A233FB1F8000C16E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C83869092348448C00F995A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -166,6 +188,15 @@
 			path = DFS_L06;
 			sourceTree = "<group>";
 		};
+		C838690D2348448C00F995A4 /* Dijktra's algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				C838690E2348448C00F995A4 /* main.cpp */,
+				C8386913234844A500F995A4 /* TravellingCost.cpp */,
+			);
+			path = "Dijktra's algorithm";
+			sourceTree = "<group>";
+		};
 		C859D78F23291577009FA93C = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +205,7 @@
 				C838145C233BA2B2000C16E2 /* BFS_L05 */,
 				C838146E233FB1F8000C16E2 /* DFS_L06 */,
 				C8DCD3722344D4B70037709D /* Heap_L07 */,
+				C838690D2348448C00F995A4 /* Dijktra's algorithm */,
 				C859D79923291577009FA93C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -186,6 +218,7 @@
 				C838145B233BA2B2000C16E2 /* BFS_L05 */,
 				C838146D233FB1F8000C16E2 /* DFS_L06 */,
 				C8DCD3712344D4B70037709D /* Heap_L07 */,
+				C838690C2348448C00F995A4 /* Dijktra's algorithm */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -228,6 +261,7 @@
 				C8DCD3732344D4B70037709D /* Monk&Mutiplication.cpp */,
 				C8CA6C202345D9370023CD83 /* QHeap1.cpp */,
 				C8CA6C222345FAE50023CD83 /* AddAll.cpp */,
+				C89A6628234758EC008D2769 /* RoyAndTrendingTopic.cpp */,
 			);
 			path = Heap_L07;
 			sourceTree = "<group>";
@@ -267,6 +301,23 @@
 			name = DFS_L06;
 			productName = DFS_L06;
 			productReference = C838146D233FB1F8000C16E2 /* DFS_L06 */;
+			productType = "com.apple.product-type.tool";
+		};
+		C838690B2348448C00F995A4 /* Dijktra's algorithm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C83869122348448C00F995A4 /* Build configuration list for PBXNativeTarget "Dijktra's algorithm" */;
+			buildPhases = (
+				C83869082348448C00F995A4 /* Sources */,
+				C83869092348448C00F995A4 /* Frameworks */,
+				C838690A2348448C00F995A4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dijktra's algorithm";
+			productName = "Dijktra's algorithm";
+			productReference = C838690C2348448C00F995A4 /* Dijktra's algorithm */;
 			productType = "com.apple.product-type.tool";
 		};
 		C859D79723291577009FA93C /* BigO_110919_C++ */ = {
@@ -335,6 +386,9 @@
 					C838146C233FB1F8000C16E2 = {
 						CreatedOnToolsVersion = 11.0;
 					};
+					C838690B2348448C00F995A4 = {
+						CreatedOnToolsVersion = 11.0;
+					};
 					C859D79723291577009FA93C = {
 						CreatedOnToolsVersion = 10.3;
 					};
@@ -363,6 +417,7 @@
 				C838145A233BA2B2000C16E2 /* BFS_L05 */,
 				C838146C233FB1F8000C16E2 /* DFS_L06 */,
 				C8DCD3702344D4B70037709D /* Heap_L07 */,
+				C838690B2348448C00F995A4 /* Dijktra's algorithm */,
 			);
 		};
 /* End PBXProject section */
@@ -381,6 +436,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C881A5B9234355B200EBE05B /* LakesInBerland.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C83869082348448C00F995A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8386914234844A500F995A4 /* TravellingCost.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +468,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8CA6C232345FAE50023CD83 /* AddAll.cpp in Sources */,
+				C89A6629234758EC008D2769 /* RoyAndTrendingTopic.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +506,26 @@
 			name = Debug;
 		};
 		C8381473233FB1F8000C16E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SXN2N8LY4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C83869102348448C00F995A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SXN2N8LY4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C83869112348448C00F995A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -637,6 +721,15 @@
 			buildConfigurations = (
 				C8381472233FB1F8000C16E2 /* Debug */,
 				C8381473233FB1F8000C16E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C83869122348448C00F995A4 /* Build configuration list for PBXNativeTarget "Dijktra's algorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C83869102348448C00F995A4 /* Debug */,
+				C83869112348448C00F995A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
