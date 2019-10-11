@@ -34,24 +34,36 @@ int main() {
         graph[u].push_back(make_pair(v, w));
     }
     
-    int s = E;
-    priority_queue<pair<int, int>, vector<pair<int, int>>, option> q;
-    vector<int> dist(MAX, INF);
-    dist[s] = 0;
-    q.push({s, 0});
-    
-    while (!q.empty()) {
-        pair<int, int> u = q.top();
-        q.pop();
+    int count = 0;
+    for (int s = 1; s <= N; s++) {
+        if (s == E) {
+            count += 1;
+            continue;
+        }
+        priority_queue<pair<int, int>, vector<pair<int, int>>, option> q;
+        vector<int> dist(MAX, INF);
+        dist[s] = 0;
+        q.push({s, 0});
         
-        for (int i = 0; i < graph[u.first].size(); i++) {
-            pair<int, int> next = graph[u.first][i];
-            if ((next.second + u.second) < dist[next.first]) {
-                dist[next.first] = next.second + u.second;
-                q.push({next.first, dist[next.first]});
+        while (!q.empty()) {
+            pair<int, int> u = q.top();
+            q.pop();
+            
+            for (int i = 0; i < graph[u.first].size(); i++) {
+                pair<int, int> next = graph[u.first][i];
+                if ((next.second + u.second) < dist[next.first]) {
+                    dist[next.first] = next.second + u.second;
+                    q.push({next.first, dist[next.first]});
+                }
             }
         }
+        
+        if (dist[E] <= T) {
+            count += 1;
+        }
     }
+    
+    cout << count << endl;
     
     return 0;
 }
