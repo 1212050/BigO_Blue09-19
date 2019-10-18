@@ -13,6 +13,8 @@
 		C887B80F234DFF1C00E19BE1 /* P01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C887B80E234DFF1C00E19BE1 /* P01.cpp */; };
 		C887B811235024F500E19BE1 /* TheShortestPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C887B810235024F500E19BE1 /* TheShortestPath.cpp */; };
 		C89A6629234758EC008D2769 /* RoyAndTrendingTopic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C89A6628234758EC008D2769 /* RoyAndTrendingTopic.cpp */; };
+		C8C0371823573B2900CB92C0 /* ExtendedTraffic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8E58BC02356C6F100901A28 /* ExtendedTraffic.cpp */; };
+		C8C0372B2359A23F00CB92C0 /* Risk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8C0372A2359A23F00CB92C0 /* Risk.cpp */; };
 		C8CA6C232345FAE50023CD83 /* AddAll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8CA6C222345FAE50023CD83 /* AddAll.cpp */; };
 		C8DCD36C2344A8370037709D /* ValidateTheMaze.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8DCD36B2344A8370037709D /* ValidateTheMaze.cpp */; };
 /* End PBXBuildFile section */
@@ -72,6 +74,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		C89D0A182355AD1E0040999B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		C8C0371B23574EDB00CB92C0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		C8DCD36F2344D4B70037709D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -118,18 +138,28 @@
 		C887B810235024F500E19BE1 /* TheShortestPath.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TheShortestPath.cpp; sourceTree = "<group>"; };
 		C88DC86B232C9B7E0026F458 /* ArraysB2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArraysB2.cpp; sourceTree = "<group>"; };
 		C89A6628234758EC008D2769 /* RoyAndTrendingTopic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RoyAndTrendingTopic.cpp; sourceTree = "<group>"; };
+		C89D0A1A2355AD1E0040999B /* BellmanFord */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BellmanFord; sourceTree = BUILT_PRODUCTS_DIR; };
+		C89D0A1C2355AD1E0040999B /* Wormholes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Wormholes.cpp; sourceTree = "<group>"; };
 		C8A5C3FB233224D6007E0B4F /* DemoSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DemoSort.cpp; sourceTree = "<group>"; };
 		C8A5C3FD233266CB007E0B4F /* Devu.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Devu.cpp; sourceTree = "<group>"; };
 		C8A5C3FF23326BEA007E0B4F /* SortTheArray_L03P02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortTheArray_L03P02.cpp; sourceTree = "<group>"; };
 		C8A5C4012334D846007E0B4F /* chores_L03P01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = chores_L03P01.cpp; sourceTree = "<group>"; };
 		C8A5C4032334E074007E0B4F /* GukiZandContest_L03P03.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GukiZandContest_L03P03.cpp; sourceTree = "<group>"; };
 		C8A5C4052334E7D1007E0B4F /* PashaandTea_L03P04.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PashaandTea_L03P04.cpp; sourceTree = "<group>"; };
+		C8C0371D23574EDB00CB92C0 /* FloydWarshall */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FloydWarshall; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8C0371F23574EDB00CB92C0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C8C0372423574F0B00CB92C0 /* PossibleFriends.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PossibleFriends.cpp; sourceTree = "<group>"; };
+		C8C037262358166C00CB92C0 /* Meeting.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Meeting.cpp; sourceTree = "<group>"; };
+		C8C037282359610100CB92C0 /* ThunderMountain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ThunderMountain.cpp; sourceTree = "<group>"; };
+		C8C0372A2359A23F00CB92C0 /* Risk.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Risk.cpp; sourceTree = "<group>"; };
 		C8CA6C202345D9370023CD83 /* QHeap1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QHeap1.cpp; sourceTree = "<group>"; };
 		C8CA6C222345FAE50023CD83 /* AddAll.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AddAll.cpp; sourceTree = "<group>"; };
 		C8DCD36923448CEA0037709D /* Slick.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Slick.cpp; sourceTree = "<group>"; };
 		C8DCD36B2344A8370037709D /* ValidateTheMaze.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ValidateTheMaze.cpp; sourceTree = "<group>"; };
 		C8DCD3712344D4B70037709D /* Heap_L07 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Heap_L07; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8DCD3732344D4B70037709D /* Monk&Mutiplication.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Monk&Mutiplication.cpp"; sourceTree = "<group>"; };
+		C8E58BC02356C6F100901A28 /* ExtendedTraffic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ExtendedTraffic.cpp; sourceTree = "<group>"; };
+		C8E58BC22356D10D00901A28 /* MonkBusinessDay.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MonkBusinessDay.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +199,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C887B804234DFEFA00E19BE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C89D0A172355AD1E0040999B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C0371A23574EDB00CB92C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -231,6 +275,8 @@
 				C8DCD3722344D4B70037709D /* Heap_L07 */,
 				C838690D2348448C00F995A4 /* Dijktra's algorithm */,
 				C887B808234DFEFA00E19BE1 /* MidTerm */,
+				C89D0A1B2355AD1E0040999B /* BellmanFord */,
+				C8C0371E23574EDB00CB92C0 /* FloydWarshall */,
 				C859D79923291577009FA93C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -245,6 +291,8 @@
 				C8DCD3712344D4B70037709D /* Heap_L07 */,
 				C838690C2348448C00F995A4 /* Dijktra's algorithm */,
 				C887B807234DFEFA00E19BE1 /* MidTerm */,
+				C89D0A1A2355AD1E0040999B /* BellmanFord */,
+				C8C0371D23574EDB00CB92C0 /* FloydWarshall */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -288,6 +336,28 @@
 				C887B80E234DFF1C00E19BE1 /* P01.cpp */,
 			);
 			path = MidTerm;
+			sourceTree = "<group>";
+		};
+		C89D0A1B2355AD1E0040999B /* BellmanFord */ = {
+			isa = PBXGroup;
+			children = (
+				C89D0A1C2355AD1E0040999B /* Wormholes.cpp */,
+				C8E58BC02356C6F100901A28 /* ExtendedTraffic.cpp */,
+				C8E58BC22356D10D00901A28 /* MonkBusinessDay.cpp */,
+			);
+			path = BellmanFord;
+			sourceTree = "<group>";
+		};
+		C8C0371E23574EDB00CB92C0 /* FloydWarshall */ = {
+			isa = PBXGroup;
+			children = (
+				C8C0371F23574EDB00CB92C0 /* main.cpp */,
+				C8C0372423574F0B00CB92C0 /* PossibleFriends.cpp */,
+				C8C037262358166C00CB92C0 /* Meeting.cpp */,
+				C8C037282359610100CB92C0 /* ThunderMountain.cpp */,
+				C8C0372A2359A23F00CB92C0 /* Risk.cpp */,
+			);
+			path = FloydWarshall;
 			sourceTree = "<group>";
 		};
 		C8DCD3722344D4B70037709D /* Heap_L07 */ = {
@@ -406,6 +476,40 @@
 			productReference = C887B807234DFEFA00E19BE1 /* MidTerm */;
 			productType = "com.apple.product-type.tool";
 		};
+		C89D0A192355AD1E0040999B /* BellmanFord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C89D0A202355AD1E0040999B /* Build configuration list for PBXNativeTarget "BellmanFord" */;
+			buildPhases = (
+				C89D0A162355AD1E0040999B /* Sources */,
+				C89D0A172355AD1E0040999B /* Frameworks */,
+				C89D0A182355AD1E0040999B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BellmanFord;
+			productName = BellmanFord;
+			productReference = C89D0A1A2355AD1E0040999B /* BellmanFord */;
+			productType = "com.apple.product-type.tool";
+		};
+		C8C0371C23574EDB00CB92C0 /* FloydWarshall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8C0372123574EDB00CB92C0 /* Build configuration list for PBXNativeTarget "FloydWarshall" */;
+			buildPhases = (
+				C8C0371923574EDB00CB92C0 /* Sources */,
+				C8C0371A23574EDB00CB92C0 /* Frameworks */,
+				C8C0371B23574EDB00CB92C0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FloydWarshall;
+			productName = FloydWarshall;
+			productReference = C8C0371D23574EDB00CB92C0 /* FloydWarshall */;
+			productType = "com.apple.product-type.tool";
+		};
 		C8DCD3702344D4B70037709D /* Heap_L07 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8DCD3752344D4B70037709D /* Build configuration list for PBXNativeTarget "Heap_L07" */;
@@ -450,6 +554,12 @@
 					C887B806234DFEFA00E19BE1 = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					C89D0A192355AD1E0040999B = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					C8C0371C23574EDB00CB92C0 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					C8DCD3702344D4B70037709D = {
 						CreatedOnToolsVersion = 11.0;
 					};
@@ -474,6 +584,8 @@
 				C8DCD3702344D4B70037709D /* Heap_L07 */,
 				C838690B2348448C00F995A4 /* Dijktra's algorithm */,
 				C887B806234DFEFA00E19BE1 /* MidTerm */,
+				C89D0A192355AD1E0040999B /* BellmanFord */,
+				C8C0371C23574EDB00CB92C0 /* FloydWarshall */,
 			);
 		};
 /* End PBXProject section */
@@ -524,6 +636,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				C887B80F234DFF1C00E19BE1 /* P01.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C89D0A162355AD1E0040999B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C0371823573B2900CB92C0 /* ExtendedTraffic.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C0371923574EDB00CB92C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C0372B2359A23F00CB92C0 /* Risk.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -770,6 +898,50 @@
 			};
 			name = Release;
 		};
+		C89D0A1E2355AD1E0040999B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SXN2N8LY4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C89D0A1F2355AD1E0040999B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SXN2N8LY4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C8C0372223574EDB00CB92C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SXN2N8LY4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C8C0372323574EDB00CB92C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SXN2N8LY4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		C8DCD3762344D4B70037709D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -852,6 +1024,24 @@
 			buildConfigurations = (
 				C887B80B234DFEFA00E19BE1 /* Debug */,
 				C887B80C234DFEFA00E19BE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C89D0A202355AD1E0040999B /* Build configuration list for PBXNativeTarget "BellmanFord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C89D0A1E2355AD1E0040999B /* Debug */,
+				C89D0A1F2355AD1E0040999B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8C0372123574EDB00CB92C0 /* Build configuration list for PBXNativeTarget "FloydWarshall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8C0372223574EDB00CB92C0 /* Debug */,
+				C8C0372323574EDB00CB92C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
