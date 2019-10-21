@@ -49,9 +49,7 @@ int main() {
         
         for (int i = 1; i <= 19; i++) {
             int n;
-            if (!(cin >> n)) {
-                return 0;
-            }
+            cin >> n;
             for (int j = 0; j < n; j++) {
                 int x;
                 cin >> x;
